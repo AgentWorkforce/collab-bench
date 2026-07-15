@@ -1,0 +1,3 @@
+node_modules/
+.agentworkforce/
+.claude/settings.local.json

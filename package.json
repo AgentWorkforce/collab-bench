@@ -1,0 +1,10 @@
+{
+  "name": "collab-bench",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Benchmark for measuring how well AI agents collaborate with each other",
+  "scripts": {
+    "generate:matrix": "node scripts/generate-matrix.mjs"
+  }
+}

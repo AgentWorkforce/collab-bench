@@ -1,0 +1,623 @@
+{
+  "generatedFrom": "configs/matrix.config.mjs",
+  "task": "count-to-100",
+  "teamSize": 3,
+  "axes": {
+    "model": [
+      "claude-sonnet-5",
+      "claude-opus-4-8",
+      "claude-haiku-4-5-20251001"
+    ],
+    "reasoningEffort": [
+      "low",
+      "medium",
+      "high"
+    ]
+  },
+  "cellCount": 28,
+  "cells": [
+    {
+      "id": "baseline_claude-sonnet-5_low",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [],
+      "agents": [
+        {
+          "model": "claude-sonnet-5",
+          "effort": "low"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "low"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "low"
+        }
+      ]
+    },
+    {
+      "id": "baseline_claude-sonnet-5_medium",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [],
+      "agents": [
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "id": "baseline_claude-sonnet-5_high",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [],
+      "agents": [
+        {
+          "model": "claude-sonnet-5",
+          "effort": "high"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "high"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "high"
+        }
+      ]
+    },
+    {
+      "id": "baseline_claude-opus-4-8_low",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [],
+      "agents": [
+        {
+          "model": "claude-opus-4-8",
+          "effort": "low"
+        },
+        {
+          "model": "claude-opus-4-8",
+          "effort": "low"
+        },
+        {
+          "model": "claude-opus-4-8",
+          "effort": "low"
+        }
+      ]
+    },
+    {
+      "id": "baseline_claude-opus-4-8_medium",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [],
+      "agents": [
+        {
+          "model": "claude-opus-4-8",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-opus-4-8",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-opus-4-8",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "id": "baseline_claude-opus-4-8_high",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [],
+      "agents": [
+        {
+          "model": "claude-opus-4-8",
+          "effort": "high"
+        },
+        {
+          "model": "claude-opus-4-8",
+          "effort": "high"
+        },
+        {
+          "model": "claude-opus-4-8",
+          "effort": "high"
+        }
+      ]
+    },
+    {
+      "id": "baseline_claude-haiku-4-5-20251001_low",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [],
+      "agents": [
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "low"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "low"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "low"
+        }
+      ]
+    },
+    {
+      "id": "baseline_claude-haiku-4-5-20251001_medium",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [],
+      "agents": [
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "id": "baseline_claude-haiku-4-5-20251001_high",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [],
+      "agents": [
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "high"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "high"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "high"
+        }
+      ]
+    },
+    {
+      "id": "model_mixed_claude-sonnet-5+claude-sonnet-5+claude-opus-4-8_medium",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "model"
+      ],
+      "agents": [
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-opus-4-8",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "id": "model_mixed_claude-sonnet-5+claude-sonnet-5+claude-haiku-4-5-20251001_medium",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "model"
+      ],
+      "agents": [
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "id": "model_mixed_claude-sonnet-5+claude-opus-4-8+claude-opus-4-8_medium",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "model"
+      ],
+      "agents": [
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-opus-4-8",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-opus-4-8",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "id": "model_mixed_claude-sonnet-5+claude-opus-4-8+claude-haiku-4-5-20251001_medium",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "model"
+      ],
+      "agents": [
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-opus-4-8",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "id": "model_mixed_claude-sonnet-5+claude-haiku-4-5-20251001+claude-haiku-4-5-20251001_medium",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "model"
+      ],
+      "agents": [
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "id": "model_mixed_claude-opus-4-8+claude-opus-4-8+claude-haiku-4-5-20251001_medium",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "model"
+      ],
+      "agents": [
+        {
+          "model": "claude-opus-4-8",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-opus-4-8",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "id": "model_mixed_claude-opus-4-8+claude-haiku-4-5-20251001+claude-haiku-4-5-20251001_medium",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "model"
+      ],
+      "agents": [
+        {
+          "model": "claude-opus-4-8",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "id": "effort_mixed_claude-sonnet-5_low+low+medium",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "reasoningEffort"
+      ],
+      "agents": [
+        {
+          "model": "claude-sonnet-5",
+          "effort": "low"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "low"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "id": "effort_mixed_claude-sonnet-5_low+low+high",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "reasoningEffort"
+      ],
+      "agents": [
+        {
+          "model": "claude-sonnet-5",
+          "effort": "low"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "low"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "high"
+        }
+      ]
+    },
+    {
+      "id": "effort_mixed_claude-sonnet-5_low+medium+medium",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "reasoningEffort"
+      ],
+      "agents": [
+        {
+          "model": "claude-sonnet-5",
+          "effort": "low"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "id": "effort_mixed_claude-sonnet-5_low+medium+high",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "reasoningEffort"
+      ],
+      "agents": [
+        {
+          "model": "claude-sonnet-5",
+          "effort": "low"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "high"
+        }
+      ]
+    },
+    {
+      "id": "effort_mixed_claude-sonnet-5_low+high+high",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "reasoningEffort"
+      ],
+      "agents": [
+        {
+          "model": "claude-sonnet-5",
+          "effort": "low"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "high"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "high"
+        }
+      ]
+    },
+    {
+      "id": "effort_mixed_claude-sonnet-5_medium+medium+high",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "reasoningEffort"
+      ],
+      "agents": [
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "high"
+        }
+      ]
+    },
+    {
+      "id": "effort_mixed_claude-sonnet-5_medium+high+high",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "reasoningEffort"
+      ],
+      "agents": [
+        {
+          "model": "claude-sonnet-5",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "high"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "high"
+        }
+      ]
+    },
+    {
+      "id": "fully_mixed_0",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "model",
+        "reasoningEffort"
+      ],
+      "agents": [
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "low"
+        },
+        {
+          "model": "claude-opus-4-8",
+          "effort": "low"
+        },
+        {
+          "model": "claude-opus-4-8",
+          "effort": "high"
+        }
+      ]
+    },
+    {
+      "id": "fully_mixed_1",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "model",
+        "reasoningEffort"
+      ],
+      "agents": [
+        {
+          "model": "claude-opus-4-8",
+          "effort": "high"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "high"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "low"
+        }
+      ]
+    },
+    {
+      "id": "fully_mixed_2",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "model",
+        "reasoningEffort"
+      ],
+      "agents": [
+        {
+          "model": "claude-sonnet-5",
+          "effort": "low"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "medium"
+        }
+      ]
+    },
+    {
+      "id": "fully_mixed_3",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "model",
+        "reasoningEffort"
+      ],
+      "agents": [
+        {
+          "model": "claude-opus-4-8",
+          "effort": "low"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "medium"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "high"
+        }
+      ]
+    },
+    {
+      "id": "fully_mixed_4",
+      "task": "count-to-100",
+      "teamSize": 3,
+      "axesVaried": [
+        "model",
+        "reasoningEffort"
+      ],
+      "agents": [
+        {
+          "model": "claude-opus-4-8",
+          "effort": "low"
+        },
+        {
+          "model": "claude-sonnet-5",
+          "effort": "low"
+        },
+        {
+          "model": "claude-haiku-4-5-20251001",
+          "effort": "high"
+        }
+      ]
+    }
+  ]
+}
