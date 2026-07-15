@@ -1,0 +1,1071 @@
+[
+  {
+    "cellId": "baseline_claude-sonnet-5_low",
+    "channel": "bench-base-sn5-low",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-sonnet-5",
+        "effort": "low"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "low"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "low"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 4)",
+      "1 duplicate/backwards number(s)",
+      "messages from an unexpected agent name appeared in this channel"
+    ],
+    "metrics": {
+      "totalMessages": 5,
+      "maxNumberReached": 4,
+      "wallClockSeconds": 1755,
+      "perAgentMessageCounts": {
+        "base-hk45-high-a2": 1,
+        "base-sn5-low-a2": 2,
+        "base-sn5-low-a1": 1,
+        "base-sn5-low-a3": 1
+      },
+      "duplicates": 1,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "baseline_claude-sonnet-5_medium",
+    "channel": "bench-base-sn5-med",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 3)",
+      "1 duplicate/backwards number(s)"
+    ],
+    "metrics": {
+      "totalMessages": 4,
+      "maxNumberReached": 3,
+      "wallClockSeconds": 18,
+      "perAgentMessageCounts": {
+        "base-sn5-med-a2": 1,
+        "base-sn5-med-a1": 2,
+        "base-sn5-med-a3": 1
+      },
+      "duplicates": 1,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "baseline_claude-sonnet-5_high",
+    "channel": "bench-base-sn5-high",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-sonnet-5",
+        "effort": "high"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "high"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "high"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 33)",
+      "1 duplicate/backwards number(s)"
+    ],
+    "metrics": {
+      "totalMessages": 34,
+      "maxNumberReached": 33,
+      "wallClockSeconds": 584,
+      "perAgentMessageCounts": {
+        "base-sn5-high-a1": 1,
+        "base-sn5-high-a3": 17,
+        "base-sn5-high-a2": 16
+      },
+      "duplicates": 1,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "baseline_claude-opus-4-8_low",
+    "channel": "bench-base-op48-low",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-opus-4-8",
+        "effort": "low"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "effort": "low"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "effort": "low"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 1)",
+      "2 duplicate/backwards number(s)"
+    ],
+    "metrics": {
+      "totalMessages": 3,
+      "maxNumberReached": 1,
+      "wallClockSeconds": 3,
+      "perAgentMessageCounts": {
+        "base-op48-low-a2": 1,
+        "base-op48-low-a3": 1,
+        "base-op48-low-a1": 1
+      },
+      "duplicates": 2,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "baseline_claude-opus-4-8_medium",
+    "channel": "bench-base-op48-med",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-opus-4-8",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "effort": "medium"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 67)",
+      "1 duplicate/backwards number(s)"
+    ],
+    "metrics": {
+      "totalMessages": 68,
+      "maxNumberReached": 67,
+      "wallClockSeconds": 583,
+      "perAgentMessageCounts": {
+        "base-op48-med-a1": 34,
+        "base-op48-med-a3": 33,
+        "base-op48-med-a2": 1
+      },
+      "duplicates": 1,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "baseline_claude-opus-4-8_high",
+    "channel": "bench-base-op48-high",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-opus-4-8",
+        "effort": "high"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "effort": "high"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "effort": "high"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 2)",
+      "2 duplicate/backwards number(s)"
+    ],
+    "metrics": {
+      "totalMessages": 4,
+      "maxNumberReached": 2,
+      "wallClockSeconds": 27,
+      "perAgentMessageCounts": {
+        "base-op48-high-a3": 2,
+        "base-op48-high-a1": 1,
+        "base-op48-high-a2": 1
+      },
+      "duplicates": 2,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "baseline_claude-haiku-4-5-20251001_low",
+    "channel": "bench-base-hk45-low",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "low"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "low"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "low"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 7)",
+      "1 duplicate/backwards number(s)"
+    ],
+    "metrics": {
+      "totalMessages": 8,
+      "maxNumberReached": 7,
+      "wallClockSeconds": 69,
+      "perAgentMessageCounts": {
+        "base-hk45-low-a2": 1,
+        "base-hk45-low-a1": 4,
+        "base-hk45-low-a3": 3
+      },
+      "duplicates": 1,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "baseline_claude-haiku-4-5-20251001_medium",
+    "channel": "bench-base-hk45-med",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "medium"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 7)",
+      "2 duplicate/backwards number(s)",
+      "1 turn violation(s) (same agent posted twice in a row)"
+    ],
+    "metrics": {
+      "totalMessages": 9,
+      "maxNumberReached": 7,
+      "wallClockSeconds": 155,
+      "perAgentMessageCounts": {
+        "base-hk45-med-a1": 4,
+        "base-hk45-med-a3": 3,
+        "base-hk45-med-a2": 2
+      },
+      "duplicates": 2,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 1,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "baseline_claude-haiku-4-5-20251001_high",
+    "channel": "bench-base-hk45-high",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "high"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "high"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "high"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 3)",
+      "1 duplicate/backwards number(s)"
+    ],
+    "metrics": {
+      "totalMessages": 4,
+      "maxNumberReached": 3,
+      "wallClockSeconds": 28,
+      "perAgentMessageCounts": {
+        "base-hk45-high-a2": 2,
+        "base-hk45-high-a3": 1,
+        "base-hk45-high-a1": 1
+      },
+      "duplicates": 1,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "fully_mixed_0",
+    "channel": "bench-fmix-00",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "low"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "effort": "low"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "effort": "high"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 4)"
+    ],
+    "metrics": {
+      "totalMessages": 4,
+      "maxNumberReached": 4,
+      "wallClockSeconds": 47,
+      "perAgentMessageCounts": {
+        "fmix-00-a2": 1,
+        "fmix-00-a3": 2,
+        "fmix-00-a1": 1
+      },
+      "duplicates": 0,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "fully_mixed_1",
+    "channel": "bench-fmix-01",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-opus-4-8",
+        "effort": "high"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "high"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "low"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 4)",
+      "1 duplicate/backwards number(s)",
+      "1 turn violation(s) (same agent posted twice in a row)"
+    ],
+    "metrics": {
+      "totalMessages": 5,
+      "maxNumberReached": 4,
+      "wallClockSeconds": 52,
+      "perAgentMessageCounts": {
+        "fmix-01-a3": 3,
+        "fmix-01-a2": 1,
+        "fmix-01-a1": 1
+      },
+      "duplicates": 1,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 1,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "fully_mixed_2",
+    "channel": "bench-fmix-02",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-sonnet-5",
+        "effort": "low"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "medium"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "12 duplicate/backwards number(s)",
+      "12 skipped number(s)",
+      "76 turn violation(s) (same agent posted twice in a row)",
+      "agent(s) never participated: fmix-02-a1"
+    ],
+    "metrics": {
+      "totalMessages": 100,
+      "maxNumberReached": 100,
+      "wallClockSeconds": 239,
+      "perAgentMessageCounts": {
+        "fmix-02-a2": 88,
+        "fmix-02-a3": 12
+      },
+      "duplicates": 12,
+      "skips": 12,
+      "consecutiveSameAgentViolations": 76,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "fully_mixed_3",
+    "channel": "bench-fmix-03",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-opus-4-8",
+        "effort": "low"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "high"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 2)",
+      "1 duplicate/backwards number(s)"
+    ],
+    "metrics": {
+      "totalMessages": 3,
+      "maxNumberReached": 2,
+      "wallClockSeconds": 11,
+      "perAgentMessageCounts": {
+        "fmix-03-a3": 1,
+        "fmix-03-a2": 1,
+        "fmix-03-a1": 1
+      },
+      "duplicates": 1,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "fully_mixed_4",
+    "channel": "bench-fmix-04",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-opus-4-8",
+        "effort": "low"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "low"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "high"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "1 duplicate/backwards number(s)",
+      "1 skipped number(s)",
+      "97 turn violation(s) (same agent posted twice in a row)",
+      "agent(s) never participated: fmix-04-a2"
+    ],
+    "metrics": {
+      "totalMessages": 100,
+      "maxNumberReached": 100,
+      "wallClockSeconds": 330,
+      "perAgentMessageCounts": {
+        "fmix-04-a3": 99,
+        "fmix-04-a1": 1
+      },
+      "duplicates": 1,
+      "skips": 1,
+      "consecutiveSameAgentViolations": 97,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "model_mixed_claude-sonnet-5+claude-sonnet-5+claude-opus-4-8_medium",
+    "channel": "bench-mmix-01",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "effort": "medium"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 50)",
+      "1 duplicate/backwards number(s)"
+    ],
+    "metrics": {
+      "totalMessages": 51,
+      "maxNumberReached": 50,
+      "wallClockSeconds": 585,
+      "perAgentMessageCounts": {
+        "mmix-01-a1": 1,
+        "mmix-01-a3": 25,
+        "mmix-01-a2": 25
+      },
+      "duplicates": 1,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "model_mixed_claude-sonnet-5+claude-sonnet-5+claude-haiku-4-5-20251001_medium",
+    "channel": "bench-mmix-02",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "medium"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 36)",
+      "1 duplicate/backwards number(s)",
+      "1 turn violation(s) (same agent posted twice in a row)"
+    ],
+    "metrics": {
+      "totalMessages": 37,
+      "maxNumberReached": 36,
+      "wallClockSeconds": 297,
+      "perAgentMessageCounts": {
+        "mmix-02-a2": 1,
+        "mmix-02-a1": 18,
+        "mmix-02-a3": 18
+      },
+      "duplicates": 1,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 1,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "model_mixed_claude-sonnet-5+claude-opus-4-8+claude-opus-4-8_medium",
+    "channel": "bench-mmix-03",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "effort": "medium"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 2)",
+      "2 duplicate/backwards number(s)"
+    ],
+    "metrics": {
+      "totalMessages": 4,
+      "maxNumberReached": 2,
+      "wallClockSeconds": 6507,
+      "perAgentMessageCounts": {
+        "mmix-03-a1": 2,
+        "mmix-03-a3": 1,
+        "mmix-03-a2": 1
+      },
+      "duplicates": 2,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "model_mixed_claude-sonnet-5+claude-opus-4-8+claude-haiku-4-5-20251001_medium",
+    "channel": "bench-mmix-04",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "medium"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 2)",
+      "1 duplicate/backwards number(s)"
+    ],
+    "metrics": {
+      "totalMessages": 3,
+      "maxNumberReached": 2,
+      "wallClockSeconds": 17,
+      "perAgentMessageCounts": {
+        "mmix-04-a1": 1,
+        "mmix-04-a3": 1,
+        "mmix-04-a2": 1
+      },
+      "duplicates": 1,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "model_mixed_claude-sonnet-5+claude-haiku-4-5-20251001+claude-haiku-4-5-20251001_medium",
+    "channel": "bench-mmix-05",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "medium"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 3)"
+    ],
+    "metrics": {
+      "totalMessages": 3,
+      "maxNumberReached": 3,
+      "wallClockSeconds": 28,
+      "perAgentMessageCounts": {
+        "mmix-05-a1": 1,
+        "mmix-05-a3": 1,
+        "mmix-05-a2": 1
+      },
+      "duplicates": 0,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "model_mixed_claude-opus-4-8+claude-opus-4-8+claude-haiku-4-5-20251001_medium",
+    "channel": "bench-mmix-06",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-opus-4-8",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-opus-4-8",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "medium"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 1)",
+      "1 duplicate/backwards number(s)",
+      "agent(s) never participated: mmix-06-a3"
+    ],
+    "metrics": {
+      "totalMessages": 2,
+      "maxNumberReached": 1,
+      "wallClockSeconds": 0,
+      "perAgentMessageCounts": {
+        "mmix-06-a2": 1,
+        "mmix-06-a1": 1
+      },
+      "duplicates": 1,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "model_mixed_claude-opus-4-8+claude-haiku-4-5-20251001+claude-haiku-4-5-20251001_medium",
+    "channel": "bench-mmix-07",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-opus-4-8",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-haiku-4-5-20251001",
+        "effort": "medium"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 2)",
+      "1 duplicate/backwards number(s)"
+    ],
+    "metrics": {
+      "totalMessages": 3,
+      "maxNumberReached": 2,
+      "wallClockSeconds": 7,
+      "perAgentMessageCounts": {
+        "mmix-07-a2": 1,
+        "mmix-07-a3": 1,
+        "mmix-07-a1": 1
+      },
+      "duplicates": 1,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "effort_mixed_claude-sonnet-5_low+low+medium",
+    "channel": "bench-emix-01",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-sonnet-5",
+        "effort": "low"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "low"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 34)"
+    ],
+    "metrics": {
+      "totalMessages": 34,
+      "maxNumberReached": 34,
+      "wallClockSeconds": 580,
+      "perAgentMessageCounts": {
+        "emix-01-a1": 17,
+        "emix-01-a2": 1,
+        "emix-01-a3": 16
+      },
+      "duplicates": 0,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "effort_mixed_claude-sonnet-5_low+low+high",
+    "channel": "bench-emix-02",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-sonnet-5",
+        "effort": "low"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "low"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "high"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 3)",
+      "2 duplicate/backwards number(s)",
+      "messages from an unexpected agent name appeared in this channel"
+    ],
+    "metrics": {
+      "totalMessages": 5,
+      "maxNumberReached": 3,
+      "wallClockSeconds": 7701,
+      "perAgentMessageCounts": {
+        "mmix-03-a1": 1,
+        "emix-02-a1": 2,
+        "emix-02-a2": 1,
+        "emix-02-a3": 1
+      },
+      "duplicates": 2,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "effort_mixed_claude-sonnet-5_low+medium+medium",
+    "channel": "bench-emix-03",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-sonnet-5",
+        "effort": "low"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 5)"
+    ],
+    "metrics": {
+      "totalMessages": 5,
+      "maxNumberReached": 5,
+      "wallClockSeconds": 26,
+      "perAgentMessageCounts": {
+        "emix-03-a1": 3,
+        "emix-03-a3": 1,
+        "emix-03-a2": 1
+      },
+      "duplicates": 0,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "effort_mixed_claude-sonnet-5_low+medium+high",
+    "channel": "bench-emix-04",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-sonnet-5",
+        "effort": "low"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "high"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 39)",
+      "1 duplicate/backwards number(s)"
+    ],
+    "metrics": {
+      "totalMessages": 40,
+      "maxNumberReached": 39,
+      "wallClockSeconds": 577,
+      "perAgentMessageCounts": {
+        "emix-04-a3": 1,
+        "emix-04-a2": 20,
+        "emix-04-a1": 19
+      },
+      "duplicates": 1,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "effort_mixed_claude-sonnet-5_low+high+high",
+    "channel": "bench-emix-05",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-sonnet-5",
+        "effort": "low"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "high"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "high"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 2)",
+      "2 duplicate/backwards number(s)"
+    ],
+    "metrics": {
+      "totalMessages": 4,
+      "maxNumberReached": 2,
+      "wallClockSeconds": 23,
+      "perAgentMessageCounts": {
+        "emix-05-a1": 1,
+        "emix-05-a3": 2,
+        "emix-05-a2": 1
+      },
+      "duplicates": 2,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "effort_mixed_claude-sonnet-5_medium+medium+high",
+    "channel": "bench-emix-06",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "high"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 42)",
+      "1 duplicate/backwards number(s)"
+    ],
+    "metrics": {
+      "totalMessages": 43,
+      "maxNumberReached": 42,
+      "wallClockSeconds": 578,
+      "perAgentMessageCounts": {
+        "emix-06-a1": 21,
+        "emix-06-a3": 21,
+        "emix-06-a2": 1
+      },
+      "duplicates": 1,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  },
+  {
+    "cellId": "effort_mixed_claude-sonnet-5_medium+high+high",
+    "channel": "bench-emix-07",
+    "task": "count-to-100",
+    "agents": [
+      {
+        "model": "claude-sonnet-5",
+        "effort": "medium"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "high"
+      },
+      {
+        "model": "claude-sonnet-5",
+        "effort": "high"
+      }
+    ],
+    "pass": false,
+    "failReasons": [
+      "did not reach 100 (max was 2)",
+      "1 duplicate/backwards number(s)"
+    ],
+    "metrics": {
+      "totalMessages": 3,
+      "maxNumberReached": 2,
+      "wallClockSeconds": 7,
+      "perAgentMessageCounts": {
+        "emix-07-a3": 1,
+        "emix-07-a1": 1,
+        "emix-07-a2": 1
+      },
+      "duplicates": 1,
+      "skips": 0,
+      "consecutiveSameAgentViolations": 0,
+      "nonNumericMessages": 0
+    }
+  }
+]
